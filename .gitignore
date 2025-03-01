@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Ignore Streamlit secrets (if any)
+.secrets.toml
+
+# Ignore large files (like models, unless needed)
+*.h5
+*.pt
+*.pkl
